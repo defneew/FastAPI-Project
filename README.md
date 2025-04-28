@@ -62,5 +62,6 @@ Proje içerisinde her varlık için temel **CRUD** (Oluşturma, Okuma, Güncelle
 Öncelikle, projenin bağımlılıklarını yüklemeniz gerekmektedir.
 ### 2. Aşağıdaki komutları çalıştırın
 cd FastAPI_Project
+
 uvicorn main:app --reload
 ### Oluşturulan url de /docs adresinde api dökümantasyonuna ulaşabilirsiniz.
