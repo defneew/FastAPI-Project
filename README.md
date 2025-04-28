@@ -56,3 +56,11 @@ Proje içerisinde her varlık için temel **CRUD** (Oluşturma, Okuma, Güncelle
 - **Update (Güncelleme)**: Mevcut kayıtların bilgileri değiştirilebilir.
 - **Delete (Silme)**: Kayıtlar veritabanından silinebilir.
 
+## Projeyi Çalıştırmak İçin Gerekli Adımlar
+
+### 1. Gerekli Paketleri Yükleyin
+Öncelikle, projenin bağımlılıklarını yüklemeniz gerekmektedir.
+### 2. Aşağıdaki komutları çalıştırın
+cd FastAPI_Project
+uvicorn main:app --reload
+### Oluşturulan url de /docs adresinde api dökümantasyonuna ulaşabilirsiniz.
